@@ -63,7 +63,7 @@ int main()
     }
 
     // Create a GLFW window
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Triangle", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "GraphicsTest", nullptr, nullptr);
     if (!window)
     {
         std::cerr << "Failed to create GLFW window" << std::endl;
